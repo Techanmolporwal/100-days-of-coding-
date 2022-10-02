@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+          System.out.println("================================");
+         for(int i=0;i<3;i++){
+           String lef=sc.next();
+            int rig=sc.nextInt();
+            // rig.length();
+            int le= lef.length();
+            int exSpace=16-le;
+            String spce="";
+            for(int j=0;j<exSpace-1;j++){
+                spce+=" ";
+            }
+            System.out.printf("%s%s%03d",lef,spce,rig);
+             System.out.println();
+        }
+       System.out.println("================================");
+       
+    }
+}
+
+output:-
+Success
+Input (stdin)
+
+
+java 100
+cpp 65
+python 50
+Expected Output
+
+
+================================
+java           100 
+cpp            065 
+python         050 
+================================
