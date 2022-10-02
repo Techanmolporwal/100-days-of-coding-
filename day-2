@@ -1,0 +1,80 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Techanmolporwal 
+Techanmolporwal
+/
+100-days-of-coding
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+100-days-of-coding/day-2
+@Techanmolporwal
+Techanmolporwal Create day-2
+Latest commit 9104b44 23 hours ago
+ History
+ 1 contributor
+36 lines (26 sloc)  673 Bytes
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       
+        Scanner scan = new Scanner(System.in);
+        StringBuffer sb=new StringBuffer("");
+        int i = scan.nextInt();
+        double d=scan.nextDouble();
+        scan.nextLine();
+        String pi=scan.nextLine();
+        scan.close();
+
+        System.out.println("String: " + pi);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
+
+
+output:-
+Success
+Input (stdin)
+
+
+42
+3.1415
+Welcome to HackerRank's Java tutorials!
+Expected Output
+
+
+String: Welcome to HackerRank's Java tutorials!
+Double: 3.1415
+Int: 42
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+100-days-of-coding/day-2 at main · Techanmolporwal/100-days-of-coding
