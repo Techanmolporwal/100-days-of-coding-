@@ -1,0 +1,44 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.nextLine();
+        // Write your code here.
+        scan.close();
+        if(!s.trim().isEmpty()){
+        String []arr=s.trim().split("[ !,?._'@]+");
+        System.out.println(arr.length);
+        for(String str:arr){
+            System.out.println(str);
+        }
+        }
+        else{
+            System.out.println("0");
+        }
+    }
+}
+
+
+output:
+Compiler Message
+Success
+
+Input (stdin)
+He is a very very good boy, isn't he?
+Expected Output
+
+
+10
+He
+is
+a
+very
+very
+good
+boy
+isn
+t
+he
