@@ -1,0 +1,4 @@
+import numpy as np
+A,B = (np.array(input().split(),dtype = 'i') for _ in range (2))
+print(np.inner(A,B))
+print(np.outer(A,B))
