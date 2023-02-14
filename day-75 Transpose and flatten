@@ -1,0 +1,9 @@
+import numpy as np
+l1 = []
+n, m = input().split()
+for i in range(int(n)):
+    l1.extend(list(map(int, input().split())))
+arr = np.array(l1)
+arr1 = np.reshape(arr, (int(n), int(m)))
+print(np.transpose(arr1))
+print(np.ravel(arr1))
